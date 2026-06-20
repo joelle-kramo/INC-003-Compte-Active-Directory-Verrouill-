@@ -11,7 +11,7 @@ Une utilisateur contacte le support car il ne parvient plus à ouvrir sa session
 
 ## Diagnostic
 
-### 1. Vérification du compte utilisateur
+## 1. Vérification du compte utilisateur
 
 Ouverture de la console :
 ``` cmd
@@ -22,6 +22,7 @@ Navigation :
 Active Directory Users and Computers
 ```
 **Observation :**
+
 * Compte utilisateur marqué comme verrouillé
 
 ## 2. Vérification des tentatives d'authentification
@@ -36,12 +37,14 @@ Windows Logs > Security
 ```
 
 **Observation :**
+
 * Plusieurs échecs d'authentification détectés
 * Verrouillage déclenché après dépassement du seuil autorisé
 
 ## 3. Recherche de la source du verrouillage
 
 Vérification : 
+
 * Poste utilisateur
 * Smartphone synchronisé avec Outlook
 * Lecteurs réseau enregistreés
